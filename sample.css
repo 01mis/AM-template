@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    color: rgba(255, 12, 24, 0.988);
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 21, 240);
+}
+#showcase{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.istockphoto.com/id/949190756/photo/various-sport-equipments-on-grass.webp?b=1&s=170667a&w=0&k=20&c=0du9Ul5NHOHDjpolTa8GKvLVSdOCoRPN-JGI_chUOsI=); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 600px;
+    overflow-y: hidden;
+    position: relative;
+ 
+}
+#showcase .container{
+    margin-top: 25vh;
+}
+#showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#showcase h2{
+font-size: 2rem;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(249, 225, 6);
+    color: darkcyan;
+    position: fixed;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: blue;
+}
+nav li:hover{
+    background-color: black;
+}
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.box{
+    font-size: 1.8rem;
+}
+footer .footer-cols{
+display: grid;
+grid-gap:20px;
+grid-template-columns: repeat(4,1fr);
+padding: 2rem;
+text-align: left;
+}
+footer .footer-cols ul{
+    list-style: none;
+}
+footer .footer-cols ul li:first-child{
+    font-size: 120%;
+    border-bottom: black solid 2px;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+footer .footer-bottom{
+    background-color: rgb(11, 222, 120);
+    text-align: center;
+    padding: 1rem;
+}
+.section{
+    padding: 2rem 0;
+}
+.section-head{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.section h3{
+    font-size: 2rem;
+}
+.btn{
+    padding: 1rem;
+    display: inline-block;
+    color: rgb(30, 2, 56);
+}
+.btn-first{
+    background-color: rgb(254, 179, 4);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.btn-first:hover{
+    background-color: aqua;
+}
+.btn-second{
+    background-color: rgb(127, 242, 12);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.btn-second:hover{
+    background-color: blueviolet;
+}
+.text{
+    color: darkgreen;
+}
+----------------------------------------------
+
+.small-container{
+max-width: 100px;
+margin: auto;
+padding-left: 100px;
+padding-right: 100px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 50px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transform: translate(0.5s);
+
+}
+.col-4 img{
+    width: 100%;
+    height: 150px;
+}
+.row-2{
+    justify-content: space-around;
+    margin: 100px auto 50px;
+}
+h4{
+    color: blueviolet;
+    font-weight: bold;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+    transform: translateY(-80px);
+}
+.checked{
+    color: rgb(208, 145, 233);
+}
+
+select{
+    border: 1pxsolid rgb(156, 244, 15);
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 40px 80px;
+}
+.page-btn span {
+    display: inline-block;
+    border: 1px solid rgb(79, 7, 235);
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color: rgb(175, 207, 17);
+    color: blanchedalmond;
+}
